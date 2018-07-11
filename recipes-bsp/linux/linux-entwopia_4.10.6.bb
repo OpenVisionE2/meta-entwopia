@@ -2,6 +2,8 @@ SUMMARY = "Linux kernel for ${MACHINE}"
 SECTION = "kernel"
 LICENSE = "GPLv2"
 
+PACKAGE_ARCH = "${MACHINE_ARCH}"
+
 KERNEL_RELEASE = "4.10.6"
 SRCDATE = "20170831"
 
