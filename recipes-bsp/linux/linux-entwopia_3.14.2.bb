@@ -4,6 +4,8 @@ LICENSE = "GPLv2"
 
 PACKAGE_ARCH = "${MACHINE_ARCH}"
 
+COMPATIBLE_MACHINE = "x2plus|enfinity|marvel1|bre2ze|evomini"
+
 KERNEL_RELEASE = "3.14.2"
 SRCDATE_x2plus = "20141118"
 SRCDATE_enfinity = "20141102"
