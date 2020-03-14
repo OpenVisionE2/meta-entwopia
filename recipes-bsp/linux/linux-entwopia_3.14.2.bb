@@ -70,6 +70,7 @@ SRC_URI += "http://source.mynonpublic.com/entwopia/${MACHINETYPE}/${MACHINETYPE}
     file://0002-log2-give-up-on-gcc-constant-optimizations.patch \
     file://0003-cp1emu-do-not-use-bools-for-arithmetic.patch \
     file://0004-makefile-allow-date-time-macros.patch \
+    file://0004-makefile-disable-warnings.patch \
     "
 
 S = "${WORKDIR}/linux-${PV}-base"
