@@ -44,7 +44,7 @@ RPROVIDES_${KERNEL_PACKAGE_NAME}-image = "${KERNEL_PACKAGE_NAME}-image-${KERNEL_
 
 SRC_URI += "http://source.mynonpublic.com/entwopia/${MACHINETYPE}/${MACHINETYPE}-linux-${PV}-base-${SRCDATE}.tgz;name=${MACHINE} \
     file://defconfig \
-    file://${OPENVISION_BASE}/meta-openvision/recipes-linux/kernel-patches/kernel-add-support-for-gcc9.patch \
+    file://${OPENVISION_BASE}/meta-openvision/recipes-linux/kernel-patches/kernel-add-support-for-gcc${VISIONGCCVERSION}.patch \
     file://add-rt2x00-wifi-devices.patch \
     file://add-rtl8192cu-wifi-devices.patch \
     file://add-dmx-source-timecode.patch \
