@@ -19,7 +19,7 @@ MACHINETYPE_marvel1 = "ew7358"
 MACHINETYPE_bre2ze = "ew7362"
 MACHINETYPE_evomini = "ch62lc"
 
-inherit kernel machine_kernel_pr
+inherit kernel machine_kernel_pr samba_change_dialect
 
 SRC_URI[x2plus.md5sum] = "15f56eb97fcc3512b031fffec7046f99"
 SRC_URI[x2plus.sha256sum] = "060093585e4de86cf5c1f717d1f6fca486a633675e94fa5a07fab566ec074e33"
