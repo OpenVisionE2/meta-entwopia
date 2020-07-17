@@ -1,5 +1,6 @@
 KV = "3.14.2"
 SRCDATE = "20171007"
+
 MACHINETYPE = "ew7356"
 
 require entwopia-dvb-modules.inc
