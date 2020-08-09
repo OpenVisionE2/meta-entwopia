@@ -1,4 +1,3 @@
-KV = "4.10.6"
 SRCDATE = "20170831"
 
 MACHINETYPE = "ch625lc"

@@ -12,9 +12,8 @@ ROOTFS_FILE = "rootfs.bin"
 DVBPROVIDER = "kernel"
 
 MACHINE_EXTRA_RRECOMMENDS += "\
-    gstreamer1.0-plugin-dvbmediasink \
-    "
-
+	gstreamer1.0-plugin-dvbmediasink \
+	"
 
 TARGET_ARCH = "mipsel"
 DEFAULTTUNE = "mips32el"
