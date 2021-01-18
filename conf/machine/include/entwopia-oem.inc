@@ -12,7 +12,6 @@ ROOTFS_FILE = "rootfs.bin"
 DVBPROVIDER = "kernel"
 
 MACHINE_ESSENTIAL_EXTRA_RDEPENDS += "\
-	gstreamer1.0-plugin-dvbmediasink \
 	"
 
 TARGET_ARCH = "mipsel"
